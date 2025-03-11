@@ -10,7 +10,13 @@
     object-position: center top;
 }
 .diploma{
-    margin-top: 250px;
+    margin-top: 240px;
+    margin-left: 40px;
+    width: 300px;
+    border: 2px solid black;
+}
+.diploma2{
+    margin-top: 10px;
     margin-left: 40px;
     width: 300px;
     border: 2px solid black;
