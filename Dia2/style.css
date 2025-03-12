@@ -4,9 +4,13 @@
     margin-left: 30px;
     width: 300px;
     height: 300px;
+/*Para hacer la foto circular*/
     border-radius: 50%;
+/*Para hacer el margen de la foto*/
     border: 2px solid black;
+/*Para que se acomode la imagen*/
     object-fit: cover;
+/*Para centrar la foto*/
     object-position: center top;
 }
 .diploma{
@@ -67,7 +71,7 @@ body {
     outline: 3px solid black;
 }
 #pro{
-    margin-top: -650px;
+    margin-top: -704px;
     margin-left: 750px;
     text-align: center;
     width: 300px;
