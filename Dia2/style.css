@@ -21,7 +21,18 @@
     width: 300px;
     border: 2px solid black;
 }
-
+.diploma3{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 300px;
+    border: 2px solid black;
+}
+.diploma4{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 300px;
+    border: 2px solid black;
+}
 body {
     background-color: beige;
     border: 4px solid black;
