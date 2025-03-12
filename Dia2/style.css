@@ -1,87 +1,90 @@
-
 .foto{
     margin-top: 30px;
     margin-left: 80px;
     width: 300px;
     height: 300px;
-/*Para hacer la foto circular*/
+ /*Para hacer la foto circular*/
     border-radius: 50%;
-/*Para hacer el margen de la foto*/
+ /*Para hacer el margen de la foto*/
     border: 2px solid black;
-/*Para que se acomode la imagen*/
+ /*Para que se acomode la imagen*/
     object-fit: cover;
-/*Para centrar la foto*/
+ /*Para centrar la foto*/
     object-position: center top;
-}
-.diploma{
+ }
+ .diploma{
     margin-top: 5px;
     margin-left: -190px;
     width: 150px;
     border: 2px solid black;
-}
-.diploma2{
+ }
+ .diploma2{
     margin-top: 10px;
     width: 150px;
     margin-left: -190px;
     border: 2px solid black;
-}
-.diploma3{
+ }
+ .diploma3{
     margin-top: -347px;
     margin-left: 165px;
     width: 150px;
     border: 2px solid black;
-}
-.diploma4{
+ }
+ .diploma4{
     margin-top: -226px;
     margin-left: 165px;
     width: 150px;
     border: 2px solid black;
-}
-.diploma5{
+ }
+ .diploma5{
     margin-top: -116px;
     margin-left: 165px;
     width: 150px;
     border: 2px solid black;
-}
-body {
-    background-color: beige;
-    border: 4px solid black;
-}
-#ip{
-    background-color:rgb(245, 219, 187);
+ }
+ body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+ }
+ #ip{
     margin-top: 30px;
     margin-left: 60px;
     text-align: center;
     width: 350px;
     outline: 3px solid black;
-}
-#ia{
-    background-color: rgb(231, 220, 205);
+ }
+ #ia{
     font-weight: 90;
     margin-top: -715px;
     margin-left: 450px;
     text-align: center;
     width: 350px;
     outline: 3px solid black;
-}
-#hab{
-    background-color: antiquewhite;
+ }
+ #hab{
     margin-top: 0px;
     margin-left: 450px;
     text-align: center;
     width: 350px;
     outline: 3px solid black;
-}
-#pro{
-    margin-top: -1090px;
+ }
+ #pro{
+    margin-top: -1047px;
     margin-left: 820px;
+    margin-right: 60px;
     text-align: center;
     width: 370px;
     outline: 3px solid black;
-}
-#imagess{
+ }
+ #imagess{
+    margin-top: 10px;;
     margin-left: 61px;
     text-align: center;
     width: 350px;
     outline: 3px solid black;
     }
+ .uno{
+    border: 4px solid black;
+ }
+ 
