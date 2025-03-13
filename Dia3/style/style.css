@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+ }
+.tab1{
+    border: 3px solid black; 
+}
+#tab2{
+    border: 3px solid black;
+    border-collapse: separate;
+    border-spacing: 100px;
+    text-align: center;
+}
+.tab4{
+    border: 3px solid black;
+    border-collapse: separate;
+    border-spacing: 100px;
+    text-align: center; 
+}
+.foto{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+ /*Para hacer la foto circular*/
+    border-radius: 50%;
+ /*Para hacer el margen de la foto*/
+    border: 2px solid black;
+ /*Para que se acomode la imagen*/
+    object-fit: cover;
+ /*Para centrar la foto*/
+    object-position: center top;
+}
+.diploma{
+    margin-top: 10px;
+   margin-left: 5px;
+   width: 150px;
+   border: 2px solid black;
+}
+.diploma2{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 150px;
+    border: 2px solid black;
+ }
+.diploma3{
+   margin-top: 10px;
+   margin-left: 170px;
+   width: 150px;
+   border: 2px solid black;
+}
+.diploma4{
+    margin-top: 10px;
+    margin-left: 170px;
+    width: 150px;
+    border: 2px solid black;
+ }
+
