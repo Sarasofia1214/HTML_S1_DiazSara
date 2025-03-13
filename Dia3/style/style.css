@@ -1,27 +1,33 @@
 body {
+     /*Para el color del fondo*/
     background-color: rgb(255, 255, 255);
     display: flex;
+    /*Parajustificar todo el contenido*/
     justify-content: center;
  }
 .tab1{
+     /*Para crear el margen*/
     border: 3px solid black;
     margin-left: 20px;
 }
 .tab2{
+     /*Para crear el margen*/
     border: 3px solid black;
-    border-collapse: separate;
-    border-spacing: 100px;
+    /*Alinear el texto*/
     text-align: center;
     margin-left: 20px;
 }
 .tab4{
+  /*Para crear el margen*/
     border: 3px solid rgb(0, 0, 0);
     margin-right: 40px;
+    /*Para mover el texto hacia abajo*/
     margin-bottom: 20px;
     text-align: center; 
     width: 370px;
 }
 .taaa{
+    /*Para mover el margen*/
     margin-top: -60px;
 
 }
@@ -52,9 +58,11 @@ body {
     object-position: center top;
 }
 .diploma{
+ /*Para mover la imagen hacia arriba*/
    margin-top: 5px;
    margin-left: 99px;
    width: 150px;
+/*Para crear el margen*/
    border: 2px solid black;
 }
 .diploma2{
