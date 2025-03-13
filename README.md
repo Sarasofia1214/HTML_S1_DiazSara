@@ -8,6 +8,7 @@ En este repositorio se escuentra la creación de una página a la que lleva a la
 | Dia 2 |  https://github.com/Sarasofia1214/HTML_S1_DiazSara/tree/master/Dia2 |
 
 
+
 ### Instalaciones 
 Ingresa a Visual Code y usando la extensión de Live Server para entrar a la página.
 
