@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro- Mi web</title>
+</head>
+<body>
+    
+    <!-- FORMULARIOS -->
+     <!-- Son los mecanismos utilizados para que el usuario final envíe información
+      a través de unos campos 
+      visuales -->
+      <form class="necesita val" novalidate name="formularioInscripcion" method="get" action="">
+        <!-- ELEMENTO INPUT-->
+         <h1>Mi Formulario</h1>
+         <label>Nombres:</label>
+        <input type="text" name="Nombre"placeholder="Nombre" minlength="3" maxlength="50" required /><br>
+        <label>Apellidos:</label>
+        <input type="text" name="Apellidos" placeholder="Apellidos" minlength="3" maxlength="50" required/><br>
+        <label>Sexo:</label>
+        <select name="Sexo" >
+            <option disabled selected="vacio">Seleccionar</option>
+            <option value="H">Hombre</option>
+            <option value="M">Mujer</option>
+        </select><br>
+        <label>Correo:</label>
+        <input type="email" name="Correo" placeholder="Correo" required/><br>
+        <label>Población:</label>
+        <select name="poblacion" >
+            <option disabled selected value="vacio">Seleccionar</option>
+            <option value="H">Bucaramanga</option>
+            <option value="M">Girón</option>
+            <option value="M">Floridablanca</option>
+            <option value="M">Piedecuesta</option>
+            </select>
+        <br> 
+        <input type="checkbox" name="vari1" checked />
+        <label for="vari1">Deseo recibir información sobre novedades y ofertas</label><br>
+        <input type="checkbox" name="vari1"/>
+        <label for="vari1">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
