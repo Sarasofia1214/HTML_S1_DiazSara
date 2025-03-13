@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./style/style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro- Mi web</title>
+    <title>Document</title>
 </head>
 <body>
-    
     <!-- FORMULARIOS -->
      <!-- Son los mecanismos utilizados para que el usuario final envíe información
       a través de unos campos 
       visuales -->
-      <form class="necesita val" novalidate name="formularioInscripcion" method="get" action="">
+        <div class="coffee">
+        <form name="formularioInscripcion" method="get" action="">
         <!-- ELEMENTO INPUT-->
          <h1>Mi Formulario</h1>
          <label>Nombres:</label>
@@ -29,17 +30,21 @@
         <label>Población:</label>
         <select name="poblacion" >
             <option disabled selected value="vacio">Seleccionar</option>
-            <option value="H">Bucaramanga</option>
-            <option value="M">Girón</option>
-            <option value="M">Floridablanca</option>
-            <option value="M">Piedecuesta</option>
+            <option value="b">Bucaramanga</option>
+            <option value="g">Girón</option>
+            <option value="f">Floridablanca</option>
+            <option value="p">Piedecuesta</option>
             </select>
         <br> 
+        <label>Descripción</label><br><br>
+        <textarea></textarea>
+        <br>
         <input type="checkbox" name="vari1" checked />
         <label for="vari1">Deseo recibir información sobre novedades y ofertas</label><br>
         <input type="checkbox" name="vari1"/>
         <label for="vari1">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
         <input type="submit" value="Enviar">
-      </form>
+        </form>
+        </div>
 </body>
 </html>

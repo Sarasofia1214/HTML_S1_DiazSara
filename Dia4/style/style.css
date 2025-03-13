@@ -1,0 +1,8 @@
+body{
+display: flex;
+justify-content: center;
+}
+.coffee{
+    text-align: center;
+    margin-left: 20px;
+}
