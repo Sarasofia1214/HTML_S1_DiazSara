@@ -1,70 +1,105 @@
-#foto{
-    top: 0px;
-    left: 2px;
-    width: 1918px;
-    height: 4149px;
-    background: transparent url('img/Path 1.png') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-
- }
- #foto1{
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 1080px;
-    background: transparent url('images/foto1.png') 0% 0% no-repeat padding-box;
-    opacity: 0,35;
-    position: absolute
- }
- #foto2{
-
-    top: 227px;
-    left: 682px;
-    width: 556px;
-    height: 313px;
-    /* UI Properties */
-    background: transparent url('imgages/fotologo.png') 0% 0% no-repeat padding-box;
-    position: absolute
- }
- #foto3{
- top: 787px;
- left: 780px;
- width: 360px;
- height: 40px;
- /* UI Properties */
- background-color: #FFFFFF;
- background: transparent url('img/fotosing.png') 0% 0% no-repeat padding-box;
- opacity: 1;
- position: absolute
-
- }
-
-#foto4{
-    top: 1106px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
-    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute
-}
 .tex1{
-    top: 517px;
-    left: 389px;
-    font-size: 60px;
-    color: #FFFFFF;
-    opacity: 100;
-    font-style: Amazon Ember, Bold;
-    position: absolute
- }
- 
- .tex2{
-    top: 717px;
-    left: 389px;
-    font-size: 30px;
-    color: #FFFFFF;
-    opacity: 100;
-    font-style: Amazon Ember, Bold;
-    position: absolute
- }
+   top: 517px;
+   left: 389px;
+   font-size: 60px;
+   width: 1151px;
+   height: 60px;
+   color: #FFFFFF;
+   opacity: 100;
+   font-style: Amazon Ember, Bold;
+   position: absolute;
+}
+
+.tex2{
+   top: 608px;
+   left: 380px;
+   font-size: 30px;
+   width: 1160px;
+   height: 102px;
+   color: #FFFFFF;
+   opacity: 100;
+   font-style: Amazon Ember, Bold;
+   position: absolute;
+}
+#foto{
+   top: 0px;
+   left: 2px;
+   width: 1918px;
+   height: 4149px;
+   border: 1px solid #707070;
+   opacity: 1;
+   display: block;
+}
+#foto1{
+   top: 0px;
+   left: 0px;
+   width: 1920px;
+   height: 1080px;
+   opacity: 0,35;
+   position: absolute;
+  
+}
+#foto2{
+
+   top: 227px;
+   left: 682px;
+   width: 556px;
+   height: 313px;
+   /* UI Properties */
+   position: absolute;
+}
+#foto4{
+   top: 1106px;
+   left: 64px;
+   width: 1792px;
+   height: 567px;
+   opacity: 1;
+   position: absolute;
+}
+#foto3{
+   top: 787px;
+   left: 780px;
+   width: 360px;
+   height: 40px;
+   /* UI Properties */
+   background-color: #FFFFFF;
+   opacity: 1;
+   position: absolute
+    
+}
+#foto5{
+  /* Layout Properties */
+  left: 730px;
+  top: 755px;
+  width: 458px;
+  height: 104px;
+  /* UI Properties */
+  border: 1px solid #707070;
+  border-radius: 52px;
+  position: absolute;
+}
+#foto6{
+   top: 37px;
+   left: 63px;
+   width: 36px;
+   height: 36px;
+   opacity: 1;
+   position: absolute;
+}
+ .tex3{
+   top: 48px;
+   left: 1773px;
+   width: 50px;
+   height: 20px;
+   color: #000000;
+   font-style: Light;
+   position: relative;
+}
+.rectangulo1{
+   top: 30px;
+   left: 1695px;
+   width: 205px;
+   height: 54px;
+   opacity: 1;
+   position: absolute;
+}
