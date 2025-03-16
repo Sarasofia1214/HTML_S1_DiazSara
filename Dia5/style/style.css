@@ -178,3 +178,105 @@ background: transparent url('img/You’ll find a variety of movies, not only for
 opacity: 1;
 position: absolute;
 }
+#foto13{
+   top: 2467px;
+   left: 64px;
+   width: 1792px;
+   height: 567px;
+   border-radius: 108px;
+   opacity: 1;
+   position: absolute;
+}
+.tex7{
+   top: 2546px;
+   left: 560px;
+   width: 800px;
+   height: 60px;
+   font-size: 60px;
+   color: #FFFFFF;
+   opacity: 1;
+   position: absolute;
+}
+#foto14{
+   left: 876px;
+   top: 2650px;
+   height: 169px;
+   width: 169px;
+   position: absolute;
+   opacity: 1;
+}
+.tex8{
+   top: 2881px;
+left: 269px;
+width: 1382px;
+height: 88px;
+opacity: 1;
+font-size: 40px;
+color: #FFFFFF;
+position: absolute;
+}
+.tex9{
+   top: 3127px;
+   left: 418px;
+   width: 1118px;
+   height: 125px;
+   font-size: 125px;
+   color: #FFFFFF;
+   position: absolute;
+}
+.tex10{
+   top: 3296px;
+left: 181px;
+width: 1544px;
+height: 99px;
+   font-size: 45px;
+   color: #FFFFFF;
+   position: absolute;
+
+}
+#foto15{
+   top: 3689px;
+   left: 305px;
+   width: 19px;
+   height: 27px;
+   transform: matrix(0.03, -1, 0.03, 0, 0);
+   opacity: 1;
+   position: absolute;
+}
+#foto16{
+   top: 3606px;
+   left: 386px;
+   width: 256px;
+   height: 219px;
+   opacity: 1;
+   position: absolute;
+}
+#foto17{
+   top: 3440px;
+left: 685px;
+width: 584px;
+height: 534px;
+   position: absolute;
+}
+#foto18{
+   top: 3587px;
+left: 1261px;
+width: 271px;
+height: 238px;
+   position: absolute;
+}
+#foto19{
+   top: 3702px;
+left: 1575px;
+width: 18px;
+height: 26px;
+transform: matrix(0, -1, 1, 0, 0, 0);
+   position: absolute;
+}
+#foto20{
+   top: 4088px;
+   left: 543px;
+   width: 831px;
+   height: 25px;
+   position: absolute;
+}
