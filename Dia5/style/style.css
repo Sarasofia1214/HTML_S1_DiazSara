@@ -28,7 +28,6 @@
    height: 4149px;
    border: 1px solid #707070;
    opacity: 1;
-   display: block;
 }
 #foto1{
    top: 0px;
@@ -40,7 +39,6 @@
   
 }
 #foto2{
-
    top: 227px;
    left: 682px;
    width: 556px;
@@ -48,37 +46,47 @@
    /* UI Properties */
    position: absolute;
 }
-#foto4{
-   top: 1106px;
-   left: 64px;
-   width: 1792px;
-   height: 567px;
+
+#foto3{
+   top: 30px;
+   left: 1695px;
+   width: 205px;
+   height: 54px;
    opacity: 1;
    position: absolute;
 }
-#foto3{
+.tex3{
+   top: 48px;
+   left: 1773px;
+   width: 50px;
+   height: 20px;
+   /* UI Properties */
+   opacity: 1;
+   position: absolute;
+}
+
+#foto4{
+   top: 755px;
+   left: 730px;
+   width: 458px;
+   height: 104px;
+   /* UI Properties */
+   border: 1px solid #707070;
+   border-radius: 52px;
+   opacity: 1;
+   position: absolute;
+}
+.tex4{
    top: 787px;
    left: 780px;
    width: 360px;
    height: 40px;
    /* UI Properties */
-   background-color: #FFFFFF;
    opacity: 1;
-   position: absolute
-    
+   font-size: 40px;
+   position: absolute;
 }
 #foto5{
-  /* Layout Properties */
-  left: 730px;
-  top: 755px;
-  width: 458px;
-  height: 104px;
-  /* UI Properties */
-  border: 1px solid #707070;
-  border-radius: 52px;
-  position: absolute;
-}
-#foto6{
    top: 37px;
    left: 63px;
    width: 36px;
@@ -86,20 +94,20 @@
    opacity: 1;
    position: absolute;
 }
- .tex3{
-   top: 48px;
-   left: 1773px;
-   width: 50px;
-   height: 20px;
-   color: #000000;
-   font-style: Light;
-   position: relative;
+#foto6{
+   top: 1106px;
+   left: 64px;
+   width: 1792px;
+   height: 567px;
+   opacity: 1;
+   position: absolute;
 }
-.rectangulo1{
-   top: 30px;
-   left: 1695px;
-   width: 205px;
-   height: 54px;
+#foto7{
+   top: 1717px;
+   left: 64px;
+   width: 1792px;
+   height: 724px;
+   border-radius: 108px;
    opacity: 1;
    position: absolute;
 }
