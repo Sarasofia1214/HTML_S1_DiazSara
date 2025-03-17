@@ -230,6 +230,18 @@ position: absolute;
    opacity: 1;
    position: absolute;
 }
+.tex166{
+   top: 2270px;
+   left: 1450px;
+   width: 1492px;
+   height: 110px;
+   font-size: 50px;
+   font-family: "Amazon1";
+   color: #FFFFFF;
+   /* UI Properties */
+   opacity: 1;
+   position: absolute;
+}
 #foto13{
    top: 2467px;
    left: 64px;
