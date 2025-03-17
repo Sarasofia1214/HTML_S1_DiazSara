@@ -1,12 +1,12 @@
 @font-face {
    font-family:"Amazon1";
-   src: url('/Dia5/fonts/AmazonEmber_Lt.ttf');
+   src: url('./Dia5/fonts/AmazonEmber_Lt.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
    font-family:"Amazon2";
-   src: url('/Dia5/fonts/AmazonEmber_Bd.ttf');
+   src: url('./Dia5/fonts/AmazonEmber_Bd.ttf');
    font-weight: normal;
    font-style: normal;
 }
