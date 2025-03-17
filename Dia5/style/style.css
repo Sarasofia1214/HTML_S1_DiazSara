@@ -56,8 +56,8 @@
    opacity: 1;
 }
 #foto1{
-   top: 0px;
-   left: 0px;
+   top: 10px;
+   left: 9px;
    width: 1920px;
    height: 1080px;
    opacity: 0,35;
@@ -252,12 +252,13 @@ position: absolute;
    position: absolute;
 }
 .tex7{
-   top: 2546px;
+   top: 2470px;
    left: 560px;
    width: 800px;
    height: 60px;
    font-size: 60px;
    color: #FFFFFF;
+   font-family: "Amazon2";
    opacity: 1;
    position: absolute;
 }
@@ -270,30 +271,55 @@ position: absolute;
    opacity: 1;
 }
 .tex8{
-   top: 2881px;
-left: 269px;
+   top: 2841px;
+left: 295px;
 width: 1382px;
 height: 88px;
 opacity: 1;
+font-family: "Amazon1";
+font-size: 40px;
+color: #FFFFFF;
+position: absolute;
+}
+#tex88{
+   top: 50px;
+left: 595px;
+width: 1382px;
+height: 88px;
+opacity: 1;
+font-family: "Amazon1";
 font-size: 40px;
 color: #FFFFFF;
 position: absolute;
 }
 .tex9{
-   top: 3127px;
+   top: 3000px;
    left: 418px;
    width: 1118px;
    height: 125px;
    font-size: 125px;
+   font-family: "Amazon1";
    color: #FFFFFF;
    position: absolute;
 }
 .tex10{
    top: 3296px;
-left: 181px;
-width: 1544px;
-height: 99px;
+   left: 190px;
+   width: 1544px;
+   height: 99px;
    font-size: 45px;
+   font-family: "Amazon1";
+   color: #FFFFFF;
+   position: absolute;
+
+}
+.tex101{
+   top: 50px;
+   left: 550px;
+   width: 1544px;
+   height: 99px;
+   font-size: 45px;
+   font-family: "Amazon1";
    color: #FFFFFF;
    position: absolute;
 
