@@ -314,6 +314,9 @@ position: absolute;
    border-radius: 108px;
    opacity: 1;
    position: absolute;
+   background-color: #00A8E1;
+   border: 1px solid #707070;
+   border-radius: 52px;  
 }
 .tex7{
    top: 2470px;
@@ -424,7 +427,6 @@ height: 238px;
 left: 1575px;
 width: 18px;
 height: 26px;
-
    position: absolute;
 }
 #foto20{
@@ -432,5 +434,55 @@ height: 26px;
    left: 543px;
    width: 831px;
    height: 25px;
+   position: absolute;
+}
+#foto21{
+   top: 4084px;
+   left: 545px;
+   width: 831px;
+   height: 25px;
+   color: #FFFFFF;
+   font-family: "Amazon1";
+   font-size: 25px;
+   position: absolute;
+}
+#foto22{
+   top: 4084px;
+   left: 750px;
+   width: 831px;
+   height: 25px;
+   color: #FFFFFF;
+   font-family: "Amazon1";
+   font-size: 25px;
+   position: absolute;
+}
+#foto23{
+   top: 4084px;
+   left: 918px;
+   width: 831px;
+   height: 25px;
+   color: #FFFFFF;
+   font-family: "Amazon1";
+   font-size: 25px;
+   position: absolute;
+}
+#foto24{
+   top: 4084px;
+   left:1170px;
+   width: 831px;
+   height: 25px;
+   color: #FFFFFF;
+   font-family: "Amazon1";
+   font-size: 25px;
+   position: absolute;
+}
+#foto25{
+   top: 4084px;
+   left: 1277px;
+   width: 831px;
+   height: 25px;
+   color: #FFFFFF;
+   font-family: "Amazon1";
+   font-size: 25px;
    position: absolute;
 }
