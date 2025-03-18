@@ -9,6 +9,7 @@ En este repositorio se escuentra la creación de una página a la que lleva a la
 | Dia 3 |  https://github.com/Sarasofia1214/HTML_S1_DiazSara/tree/master/Dia3 |
 | Dia 4 |  https://github.com/Sarasofia1214/HTML_S1_DiazSara/tree/master/Dia4 |
 | Dia 5 |  https://github.com/Sarasofia1214/HTML_S1_DiazSara/tree/master/Dia5 |
+| Dia 6 |  https://github.com/Sarasofia1214/HTML_S1_DiazSara/tree/master/Dia6 |
 
 ### Instalaciones 
 Ingresa a Visual Code y usando la extensión de Live Server para entrar a la página.
@@ -25,3 +26,5 @@ Ingresa a Visual Code y usando la extensión de Live Server para entrar a la pá
 >**Dia 4:** Se realizo un formulario para pedir nombres, apellidos, sexo, correo, población y descripción, haciendo uso de comandos como form, input, label and select.
 >**Dia 5:** Se realizo un wireframe en HTML/CSS basandonos en el siguiente:https://xd.adobe.com/view/64812a19-92af-4081-a325-50859a53e21f-31d2/?authuser=0
 >el ejercicio fue realizar una copia exacta del anterior wireframe, esto se logro poniedo las imagenes de la página y modificandolas en el css, al igual con el texto puesto.
+>**Dia 6:**En este dia se realizaron las correciones del wireframe del dia 5 sobre unas figuras como lo son las blancas y azules, ya que estaban puestas como imagenes en le dia anterior. Esto se logro usando:
+> background-color: #00A8E1; border: 1px solid #707070; border-radius: 52px. Juanto a otros comandfos para menejar las medidas deseadas.
