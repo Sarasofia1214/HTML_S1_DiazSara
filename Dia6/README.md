@@ -1,4 +1,6 @@
-# Dia 5
+# Dia 6
+>En este dia se realizaron las correciones del wireframe del dia 5 sobre unas figuras como lo son las blancas y azules, ya que estaban puestas como imagenes en le dia anterior. Esto se logro usando:
+> background-color: #00A8E1; border: 1px solid #707070; border-radius: 52px. Juanto a otros comandfos para menejar las medidas deseadas.
 ## Tabla de contenidos
 | carpetas| Links  |
 |--|--|
