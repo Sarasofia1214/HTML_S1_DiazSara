@@ -19,6 +19,9 @@ body{
     color: aliceblue;
     position: absolute;
     font-family: "Fuente1";
-    font-size: 50px;
+    font-size: 85px;
     top: 50px;
+    left:800px ;
+    text-align: center;
+    letter-spacing: 2px;
 }
