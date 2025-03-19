@@ -7,6 +7,18 @@ body{
     font-weight: normal;
     font-style: normal;
  }
+ @font-face {
+    font-family:"Fuente2";
+    src: url("../font/open-sauce.one-semibold.ttf");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family:"Fuente3";
+    src: url("../font/Barlow-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+ }
 #foto1{
     margin-top: 20px;
     left: 0px;
@@ -21,7 +33,50 @@ body{
     font-family: "Fuente1";
     font-size: 85px;
     top: 50px;
-    left:800px ;
+    left:615px ;
     text-align: center;
     letter-spacing: 2px;
+}
+#encabezado_tex1{
+    color: aliceblue;
+    position: absolute;
+    font-family: "Fuente3";
+    font-size: 33px;
+    top: 0px;
+    left:333px ;
+    text-align: center;
+   
+
+}
+#encabezado_tex2{
+    color: aliceblue;
+    position: absolute;
+    font-family: "Fuente2";
+    font-size: 25px;
+    top: 50px;
+    left:1000px;
+}
+#encabezado_tex3{
+    color: aliceblue;
+    position: absolute;
+    font-family: "Fuente2";
+    font-size: 25px;
+    top: 50px;
+    left:1200px;
+}
+#encabezado_tex4{
+    color: aliceblue;
+    position: absolute;
+    font-family: "Fuente2";
+    font-size: 25px;
+    top: 50px;
+    left:1300px;
+}
+#encabezado_tex5{
+    color: aliceblue;
+    position: absolute;
+    font-family: "Fuente2";
+    font-size: 25px;
+    top: 50px;
+    left:1500px;
 }
