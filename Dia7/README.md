@@ -3,7 +3,7 @@
 ## Tabla de contenidos
 | Documentos| Explicación  |
 |--|--|
-| [Fonts](Dia7/font): | En esta carpeta estan las fuentes dscargadas para previamente usarlas en el css con @font-face y darle nombre personalizado a la fuente. |
+| [Fonts](font): | En esta carpeta estan las fuentes dscargadas para previamente usarlas en el css con @font-face y darle nombre personalizado a la fuente. |
 | [Images](Dia7/images)| En esta carpeta se encuentran las imagenes descargadas en png y svg. Se pueden usar en el index ya que se usa link para referenciar la carpeta de images. |
 | [Style](Dia7/style/syle.css) |Se usan los comandos correspondientes para modificar las imagenes y texto ya sea con .clase o #id (identificadores únicos) del primer wireframe. |
 | [Index](Dia7/index.html) | Se ponen las imagenes y texto a modificar en el css. de la primera parte del wireframe. |
