@@ -19,11 +19,13 @@
 
 }
 #fondoblanco{
-    top: 200px;
+    top: 207px;
     left: 100px;
     width: 1400px;
     height: 800px;
-    position: relative;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #707070;
 }
 #fotologo{
     top: 243px;
@@ -44,14 +46,8 @@
     left: 1402px;
     width: 110px;
     height: 800px;
+    background-color: #212020;
     border-radius: 0px 8px 8px 0px;
-    position: absolute;
-}
-#cuadroverde{
-    top: 847px;
-    left: 1180px;
-    width: 160px;
-    height: 114px;
     position: absolute;
 }
 #line{
@@ -75,6 +71,16 @@
     left: 1195px;
     width: 129px;
     height: 29px;
+    position: absolute;
+}
+#cuadroVerde{
+    top: 847px;
+    width: 160px;
+    height: 114px;
+    left: 1180px;
+    background-color: #D5FF43;
+    border: 1px solid #D5FF43;
+    border-radius: 8px;
     position: absolute;
 }
 #numeros{
