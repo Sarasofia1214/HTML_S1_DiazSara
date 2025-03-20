@@ -396,7 +396,7 @@
 }
 #titulo_final{
     font-size: 47px;
-    margin-left: 455px;
+    margin-left: 435px;
     margin-top: 300px;
     color: #ffffff;
     font-family: "Fuente3";
@@ -406,18 +406,17 @@
     font-family: "Fuente3";
     color: #ce9e5a;
     font-size: 47px;
-    margin-left: 604px;
+    margin-left: 574px;
     margin-top: 300px;
     position: absolute;
 }
 #texto_final{
-    font-family: "Fuente3";
+    font-family: "Fuente2";
     color: white;
     font-size: 20px;
-    margin-left: 334px;
+    margin-left: 280px;
     margin-top: 395px;
     position: absolute;
-    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -425,7 +424,7 @@
 
 #titulo_final2{
     font-size: 47px;
-    margin-left: 855px;
+    margin-left: 875px;
     margin-top: 300px;
     color: #ffffff;
     font-family: "Fuente3";
@@ -435,18 +434,17 @@
     font-family: "Fuente3";
     color: #ce9e5a;
     font-size: 47px;
-    margin-left: 604px;
+    margin-left: 1053px;
     margin-top: 300px;
     position: absolute;
 }
 #texto_final2{
-    font-family: "Fuente3";
+    font-family: "Fuente2";
     color: white;
     font-size: 20px;
-    margin-left: 334px;
+    margin-left: 783px;
     margin-top: 395px;
     position: absolute;
-    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -455,7 +453,7 @@
 
 #titulo_final3{
     font-size: 47px;
-    margin-left: 455px;
+    margin-left: 1300px;
     margin-top: 300px;
     color: #ffffff;
     font-family: "Fuente3";
@@ -465,24 +463,37 @@
     font-family: "Fuente3";
     color: #ce9e5a;
     font-size: 47px;
-    margin-left: 604px;
+    margin-left: 1490px;
     margin-top: 300px;
     position: absolute;
 }
 #texto_final3{
-    font-family: "Fuente3";
+    font-family: "Fuente2";
     color: white;
     font-size: 20px;
-    margin-left: 334px;
+    margin-left: 1264px;
     margin-top: 395px;
     position: absolute;
-    letter-spacing: 1px;
     text-align: center;
 }
 #linea3{
     border: 1px solid  #ce9e5a;
     width: 610px;
     left: 672px;
-    top: 5059px;
+    top: 4660px;
     position: absolute;
+}
+#textoFinal{
+    color: #ffffff;
+    font-family: "open";
+    font-size: 19px;
+    margin-left: 830px;
+    margin-top: 705px;
+}
+#textoFinal2{
+    color:#ce9e5a;;
+    font-family: "open";
+    font-size: 19px;
+    margin-left: 1117px;
+    margin-top: -20px;
 }
