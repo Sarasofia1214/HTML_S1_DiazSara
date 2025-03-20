@@ -60,12 +60,16 @@
     cursor: pointer;
     text-decoration: underline #ebb85a;
 }
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
 #encabezado_tex3{
     color: aliceblue;
     position: absolute;
     font-family: "Fuente2";
     font-size: 20px;
-    top: 24px;
+    top: 44px;
     left:1348px;
 }
 #encabezado_tex3:hover{
@@ -77,7 +81,7 @@
     position: absolute;
     font-family: "Fuente2";
     font-size: 20px;
-    top: 24px;
+    top: 44px;
     left:1470px;
 }
 #encabezado_tex4:hover{
@@ -89,7 +93,8 @@
     position: absolute;
     font-family: "Fuente2";
     font-size: 20px;
-    top: 24px;
+    top: 44
+    px;
     left: 1577px;
 }
 #encabezado_tex5:hover{
@@ -276,7 +281,7 @@
     font-family: "Fuente2";
     color: rgb(0, 0, 0);
     top: 3891px;
-    left:346px;
+    left:344px;
 }
 
 #cuadro2{
@@ -338,7 +343,7 @@
     position: absolute;
     font-family: "Fuente2";
     color: rgb(0, 0, 0);
-    top: 3891px;
+    top: 3887px;
     left:939px;
 }
 
@@ -401,7 +406,7 @@
     position: absolute;
     font-family: "Fuente2";
     color: rgb(0, 0, 0);
-    top: 3891px;
+    top: 3884px;
     left:1540px;
 }
 #linea2{
