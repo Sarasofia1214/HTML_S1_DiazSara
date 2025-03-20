@@ -34,7 +34,7 @@
     font-family: "Fuente1";
     font-size: 85px;
     top: 200px;
-    left:615px ;
+    left:560px ;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -52,7 +52,7 @@
     font-family: "Fuente2";
     font-size: 20px;
     top: 24px;
-    left:1200px;
+    left:1224px;
     text-align: center;
     
 }
@@ -66,7 +66,7 @@
     font-family: "Fuente2";
     font-size: 20px;
     top: 24px;
-    left:1310px;
+    left:1348px;
 }
 #encabezado_tex3:hover{
     cursor: pointer;
@@ -78,7 +78,7 @@
     font-family: "Fuente2";
     font-size: 20px;
     top: 24px;
-    left:1420px;
+    left:1470px;
 }
 #encabezado_tex4:hover{
     cursor: pointer;
@@ -90,7 +90,7 @@
     font-family: "Fuente2";
     font-size: 20px;
     top: 24px;
-    left:1520px;
+    left: 1577px;
 }
 #encabezado_tex5:hover{
     cursor: pointer;
@@ -102,7 +102,7 @@
     font-family: "Fuente1";
     font-size: 85px;
     top: 977px;
-    left: 578px;
+    left: 523px;
     text-align: center;
     letter-spacing: 2px;
 }
