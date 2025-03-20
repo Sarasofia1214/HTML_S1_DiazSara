@@ -111,14 +111,14 @@
     font-family: "Fuente2";
     color: black;
     top: 1219px;
-    left:967px;
+    left:910px;
 }
 #boton{
     border-radius: 0%;
     background-color: #ce9e5a;
     position: absolute;
     margin-top: -20px;
-    margin-left: 922px;
+    margin-left: 865px;
     width: 150px;
     height: 40px;
 }
