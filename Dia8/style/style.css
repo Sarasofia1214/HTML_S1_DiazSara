@@ -45,7 +45,6 @@
     font-size: 33px;
     top: 0px;
     left:333px ;
-    text-align: center;
 }
 #encabezado_tex2{
     color: aliceblue;
@@ -54,6 +53,12 @@
     font-size: 20px;
     top: 24px;
     left:1200px;
+    text-align: center;
+    
+}
+#encabezado_tex2:hover{
+    cursor: pointer;
+    text-decoration: underline #ebb85a;
 }
 #encabezado_tex3{
     color: aliceblue;
@@ -63,6 +68,10 @@
     top: 24px;
     left:1310px;
 }
+#encabezado_tex3:hover{
+    cursor: pointer;
+    text-decoration: underline #ebb85a;
+}
 #encabezado_tex4{
     color: aliceblue;
     position: absolute;
@@ -71,6 +80,10 @@
     top: 24px;
     left:1420px;
 }
+#encabezado_tex4:hover{
+    cursor: pointer;
+    text-decoration: underline #ebb85a;
+}
 #encabezado_tex5{
     color: aliceblue;
     position: absolute;
@@ -78,6 +91,10 @@
     font-size: 20px;
     top: 24px;
     left:1520px;
+}
+#encabezado_tex5:hover{
+    cursor: pointer;
+    text-decoration: underline #ebb85a;
 }
 #texto_titulo2{
     color: aliceblue;
@@ -494,6 +511,6 @@
     color:#ce9e5a;;
     font-family: "open";
     font-size: 19px;
-    margin-left: 1117px;
-    margin-top: -20px;
+    margin-left: 1112px;
+    margin-top: -23px;
 }
