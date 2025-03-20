@@ -200,11 +200,11 @@
     letter-spacing: 2px;
 }
 #cuadro{
-    width: 450px;
+    width: 400px;
     height: 520px;
     border: 1px solid #ce9e5a;
     border-radius: 7px;
-    margin-left: 148px;
+    margin-left: 165px;
     margin-top: 540px;
 }
 #foto4{
@@ -263,11 +263,11 @@
 }
 
 #cuadro2{
-    width: 450px;
+    width: 400px;
     height: 520px;
     border: 1px solid #ce9e5a;
     border-radius: 7px;
-    margin-left: 750px;
+    margin-left: 775px;
     margin-top: -525px;
 }
 #foto5{
@@ -326,11 +326,11 @@
 }
 
 #cuadro3{
-    width: 450px;
+    width: 400px;
     height: 520px;
     border: 1px solid #ce9e5a;
     border-radius: 7px;
-    margin-left: 1345px;
+    margin-left: 1365px;
     margin-top: -525px;
 }
 #foto6{
@@ -388,9 +388,101 @@
     left:1540px;
 }
 #linea2{
-    border: 1.5px solid  #ce9e5a;
-    width: 340px;
-    left: 1032px;
-    top: 4050px;
+    border: 1px solid  #ce9e5a;
+    width: 610px;
+    left: 672px;
+    top: 4059px;
+    position: absolute;
+}
+#titulo_final{
+    font-size: 47px;
+    margin-left: 455px;
+    margin-top: 300px;
+    color: #ffffff;
+    font-family: "Fuente3";
+    position: absolute;
+}
+#titulo2_final{
+    font-family: "Fuente3";
+    color: #ce9e5a;
+    font-size: 47px;
+    margin-left: 604px;
+    margin-top: 300px;
+    position: absolute;
+}
+#texto_final{
+    font-family: "Fuente3";
+    color: white;
+    font-size: 20px;
+    margin-left: 334px;
+    margin-top: 395px;
+    position: absolute;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+#titulo_final2{
+    font-size: 47px;
+    margin-left: 855px;
+    margin-top: 300px;
+    color: #ffffff;
+    font-family: "Fuente3";
+    position: absolute;
+}
+#titulo2_final2{
+    font-family: "Fuente3";
+    color: #ce9e5a;
+    font-size: 47px;
+    margin-left: 604px;
+    margin-top: 300px;
+    position: absolute;
+}
+#texto_final2{
+    font-family: "Fuente3";
+    color: white;
+    font-size: 20px;
+    margin-left: 334px;
+    margin-top: 395px;
+    position: absolute;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+
+#titulo_final3{
+    font-size: 47px;
+    margin-left: 455px;
+    margin-top: 300px;
+    color: #ffffff;
+    font-family: "Fuente3";
+    position: absolute;
+}
+#titulo2_final3{
+    font-family: "Fuente3";
+    color: #ce9e5a;
+    font-size: 47px;
+    margin-left: 604px;
+    margin-top: 300px;
+    position: absolute;
+}
+#texto_final3{
+    font-family: "Fuente3";
+    color: white;
+    font-size: 20px;
+    margin-left: 334px;
+    margin-top: 395px;
+    position: absolute;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#linea3{
+    border: 1px solid  #ce9e5a;
+    width: 610px;
+    left: 672px;
+    top: 5059px;
     position: absolute;
 }
