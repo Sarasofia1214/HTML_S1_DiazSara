@@ -19,6 +19,13 @@
  body{
     background-color: black;
 }
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #a3a2a2;
+    border-radius: 20px;
+}
 #foto1{
     margin-top: 33px;
     margin-left: -10px;
