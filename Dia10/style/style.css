@@ -17,12 +17,14 @@
     font-style: normal;
 }
 html{
+    scroll-behavior: smooth;
     @media screen and (max-width: 300px) {
         #texto_titulo {
             font-size: 1rem;
         }
 }
 }
+
  body{
     background-color: black;
 }
@@ -401,6 +403,7 @@ a{
     left:78% ;
     color: #ffffff;
     position: relative;
+    
 }
 #boton6{
     border-radius: 0%;
@@ -425,62 +428,63 @@ a{
 
 #linea2{
     border: 1px solid  #ce9e5a;
-    width: 610px;
-    left: 672px;
-    top: 4059px;
+    width: 29vw;
+    left: 36%;
+    margin-top: 7%;
     position: relative;
 }
 #titulo_final{
-    font-size: 47px;
-    margin-left: 435px;
-    margin-top: 300px;
+    font-family:"Fuente3";
+    font-size: 3vw;
+    margin-top:20vh;
+    left:20% ;
     color: #ffffff;
-    font-family: "Fuente3";
     position: relative;
 }
 #titulo2_final{
     font-family: "Fuente3";
     color: #ce9e5a;
-    font-size: 47px;
-    margin-left: 574px;
-    margin-top: 300px;
+    font-size: 3vw;
+    margin-top:-7.5vh;
+    left:29% ;
     position: relative;
 }
 #texto_final{
     font-family: "Fuente2";
     color: white;
-    font-size: 20px;
-    margin-left: 280px;
-    margin-top: 395px;
     position: relative;
+    font-size: 1vw;
+    margin-top:1vh;
+    left:-24% ;
     text-align: center;
+
 }
 
 
 
 #titulo_final2{
-    font-size: 47px;
-    margin-left: 875px;
-    margin-top: 300px;
+    font-family:"Fuente3";
+    font-size: 3vw;
+    margin-top:-16.5vh;
+    left:45% ;
     color: #ffffff;
-    font-family: "Fuente3";
     position: relative;
 }
 #titulo2_final2{
     font-family: "Fuente3";
     color: #ce9e5a;
-    font-size: 47px;
-    margin-left: 1053px;
-    margin-top: 300px;
+    font-size: 3vw;
+    margin-top:-7.5vh;
+    left:56% ;
     position: relative;
 }
 #texto_final2{
     font-family: "Fuente2";
     color: white;
-    font-size: 20px;
-    margin-left: 783px;
-    margin-top: 395px;
     position: relative;
+    font-size: 1vw;
+    margin-top:3.5vh;
+    left:1% ;
     text-align: center;
 }
 
@@ -488,50 +492,55 @@ a{
 
 
 #titulo_final3{
-    font-size: 47px;
-    margin-left: 1300px;
-    margin-top: 300px;
+    font-family:"Fuente3";
+    font-size: 3vw;
+    margin-top:-16.5vh;
+    left:66% ;
     color: #ffffff;
-    font-family: "Fuente3";
     position: relative;
 }
 #titulo2_final3{
     font-family: "Fuente3";
     color: #ce9e5a;
-    font-size: 47px;
-    margin-left: 1490px;
-    margin-top: 300px;
+    font-size: 3vw;
+    margin-top:-7.5vh;
+    left:78% ;
     position: relative;
 }
 #texto_final3{
     font-family: "Fuente2";
     color: white;
-    font-size: 20px;
-    margin-left: 1264px;
-    margin-top: 395px;
     position: relative;
+    font-size: 1vw;
+    margin-top:3.5vh;
+    left:27% ;
     text-align: center;
 }
+
+
 #linea3{
     border: 1px solid  #ce9e5a;
-    width: 610px;
-    left: 672px;
-    top: 4660px;
+    width: 29vw;
+    left: 36%;
+    margin-top: 10%;
     position: relative;
 }
 #textoFinal{
-    color: #ffffff;
-    font-family: "open";
-    font-size: 19px;
-    margin-left: 830px;
-    margin-top: 705px;
+    font-family: "Fuente2";
+    color: white;
+    position: relative;
+    font-size: 1vw;
+    margin-top:3.5vh;
+    left:40% ;
+
 }
 #textoFinal2{
-    color:#ce9e5a;;
-    font-family: "open";
-    min-width: 400px;
-    font-size: 19px;
-    margin-left: 1112px;
-    margin-top: -23px;
+    font-family: "Fuente2";
+    color: #ce9e5a;
+    position: relative;
+    font-size: 1vw;
+    margin-top: -1.2vw;
+    left:8.5% ;
+    text-align: center;
 }
 
