@@ -253,7 +253,7 @@ a{
 #foto4{
     width: 6%;
     margin-left: 18%;
-    margin-top: 10%;
+    margin-top: 13%;
     position: relative;
 }
 #foto6{
@@ -266,7 +266,7 @@ a{
     width: 22vw;
     height: 30vw;
     border: 1px solid #ce9e5a;
-    border-radius: 7px;
+    border-radius: 1%;
     margin-left: 10%;
     margin-top: -2%;
 }
@@ -277,36 +277,24 @@ a{
     left:19% ;
     color: #ffffff;
     position: relative;
+    max-width: 10%;
+    max-height: 10%;
 }
 #texto_cuadro{
     font-family: "Fuente2";
     font-size: 1vw;
-    top: -40vh;
+    top: -42vh;
     left:18% ;
     color: #ffffff;
     position: relative;
-}
-#texto1_cuadro{
-    font-family: "Fuente2";
-    font-size: 1vw;
-    top: -35vh;
-    left:18% ;
-    color: #ffffff;
-    position: relative;
-}
-#texto2_cuadro{
-    font-family: "Fuente2";
-    font-size: 1vw;
-    top: -30vh;
-    left:18% ;
-    color: #ffffff;
-    position: relative;
+    max-width: 10%;
+    max-height: 10%;
 }
 #boton4{
     border-radius: 0%;
     background-color: #ce9e5a;
     position: relative;
-    margin-top: -11vw;
+    margin-top: -19vw;
     margin-left: 16%;
     max-width: 10%;
     min-height: 6vh;
