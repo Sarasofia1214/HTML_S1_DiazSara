@@ -245,13 +245,30 @@ a{
     font-family: "Fuente1";
     color: rgb(255, 255, 255);
 }
+#foto5{
+    width: 6%;
+    margin-left: 48%;
+    margin-top: -150%;
+}
+#foto4{
+    width: 6%;
+    margin-left: 18%;
+    margin-top: 10%;
+    position: relative;
+}
+#foto6{
+    width: 6%;
+    margin-left: 78%;
+    margin-top: -10%;
+    position: relative;
+}
 #cuadro{
     width: 22vw;
     height: 30vw;
     border: 1px solid #ce9e5a;
     border-radius: 7px;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: -2%;
 }
 #titulo_cuadro{
     font-family: "Fuente2";
@@ -303,7 +320,6 @@ a{
     font-size: 1vw;
     text-align: center;
 }
-
 #cuadro2{
     width: 22vw;
     height: 30vw;
