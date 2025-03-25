@@ -1,5 +1,5 @@
 # Dia 10
- >En este dia se evidencia la realización de un HTML/CSS de una página de café.
+ >En este dia se evidencia la realización de un HTML/CSS de una página de café pero con medidas relativas como vw, vh y % para que sea una página responsive.
  ## Tabla de contenidos
  | carpetas| Explicación  |
  |--|--|
