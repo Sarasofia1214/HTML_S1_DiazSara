@@ -14,6 +14,7 @@ En este repositorio se encuentra la creación de una página a la que lleva a la
 | [Dia 8](Dia8) |En este dia se evidencia la realización de un HTML/CSS de una página de café, utilizando los conocimientos previos. |
 | [Dia 9](Dia9) |En este dia se evidencia la modificación para mejorar la página de café antes trabajada, agragando animaciones al scroll.|
 | [Dia 10](Dia10)|En este dia se evidencia la modificación para mejorar la página de café antes trabajada, cambiando las medidas absolutas por relativas para hacer la página responsive.|
+| [Dia 11](Dia11)|En este dia se evidencia el uso de Grids junto con medidas relativas para hacer la página responsive.|
 
 ### Instalaciones 
 Ingresa a Visual Code y usando la extensión de Live Server para entrar a la página.
