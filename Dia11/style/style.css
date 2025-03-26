@@ -1,4 +1,5 @@
 body{
+    display:inline-flex;
     justify-content: center;
 }
 contenedor_1{
@@ -6,14 +7,14 @@ contenedor_1{
     grid-template-columns:  1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 9vw;
-    gap: 0%;
-    padding: 2vw;
+    gap: 0vw;
+    padding: 0vw;
     background-color: rgb(0, 0, 0);
 }
-contenedor_1 >div >iframe{
+contenedor_1 >div > video{
     border-radius: 5vw;
-    width: 100%;
-    height: 100vh;
+  margin: 5vw;
+ 
 }
 .video_dinosaur video{
     grid-row-start: 1;
@@ -26,15 +27,14 @@ contenedor_1 >div >iframe{
     height: 25vw;
     border:0;
 }
-.video_dinosaur{
-    margin: 0vw;
-    padding: 0vw;
-}
+
 .video_paper{
     grid-row-start: 2;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
     border-radius: 90vw;
-    width: 45vw;
+    width: 54vw;
     height: 25vw;
     border:0;
 }
@@ -46,11 +46,18 @@ contenedor_1 >div >iframe{
     border-radius: 5vw;
     width: 50vw;
     height: 65vw;
-    border: 10px solid rgb(23, 95, 158);
     
 }
 .video_dinosaur2 {
-    grid-row: 2 / span 2;
-    grid-column: 1 / 2;
+    grid-row: 2 /  2;
+    grid-column: 2 / 2;
+    border: 3vw solid white;
+
+}
+contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; ;
+    gap: 45vw;
 
 }
