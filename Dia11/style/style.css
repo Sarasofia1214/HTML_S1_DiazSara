@@ -2,6 +2,7 @@ contenedor_1{
     display: grid;
     width: 73vw;
     background-color: black;
+    justify-content: center;
 }
 .video_dinosaur img{
     margin-top: 1vw;
@@ -38,4 +39,38 @@ grid-column-end: 3;
     margin-bottom: 1vw; 
     width: 70.5vw;
     border-radius: 40px;
+}
+contenedor_2{
+    margin-top: 1vw;
+    align-self: center;
+    display: grid;
+    width: 73vw;
+    background-color: black;
+}
+.img_tex2 img{
+    width: 34.7vw;
+    border-radius: 40px;
+    margin-left: 1.4vw;
+    margin-top: 1vw;
+}
+.video_dinosaur3 img{
+    margin-top: 1vw;
+    margin-left: 1.4vw;
+    margin-bottom: 1vw;
+    width: 34.7vw;
+    border-radius: 40px;
+}
+.img_tex3 img{
+    width: 32.6vw;
+    border-radius: 40px;
+    margin-top: 1vw;
+    margin-left: 0.5;
+
+}
+.img_tex3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
 }
