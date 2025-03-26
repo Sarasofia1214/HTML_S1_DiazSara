@@ -1,32 +1,41 @@
 contenedor_1{
     display: grid;
     width: 72vw;
+    height: 87vw;
     background-color: black;
     justify-content: center;
     border-radius: 2%;
+    gap:2%;
+    margin-left: 15%;
 }
+
 .video_dinosaur img{
-    margin-top: 1vw;
-    margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 0vw;
     width: 34.7vw;
-    border-radius: 40px;
+    border-radius: 4%;
 
 }
 .video_paper img{
-    margin-top: -25vw;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
-    border-radius: 40px;
-    width: 34.7vw;
+    margin-top: -98vw;
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+    border-radius: 4%;
+    width: 35vw;
+}
+.video_paper{
+    margin-top: -2vw;
+
 }
 .img_tex img{
-    width: 34.53vw;
-    margin-top: 1vw;
+    width: 34vw;
+    height: 46vw;
+    margin-top: 0.5vw;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
-    border-radius: 40px;   
+    border-radius: 4%;  
 }
 .img_tex {
 grid-column-start: 2;
@@ -36,10 +45,10 @@ grid-column-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
     margin-left: -36vw;
-    margin-top: 1vw;
+    margin-top: -1vw;
     margin-bottom: 1vw; 
-    width: 70.5vw;
-    border-radius: 40px;
+    width: 70vw;
+    border-radius: 4%;
 }
 contenedor_2{
     margin-top: 1vw;
@@ -48,10 +57,11 @@ contenedor_2{
     width: 72vw;
     background-color: black;
     border-radius: 2%;
+    margin-left: 15%;
 }
 .img_tex2 img{
     width: 34.7vw;
-    border-radius: 40px;
+    border-radius: 4%; 
     margin-left: 1.4vw;
     margin-top: 1vw;
 }
@@ -60,11 +70,11 @@ contenedor_2{
     margin-left: 1.4vw;
     margin-bottom: 1vw;
     width: 34.7vw;
-    border-radius: 40px;
+    border-radius: 4%;
 }
 .img_tex3 img{
     width: 32.6vw;
-    border-radius: 40px;
+    border-radius: 4%;
     margin-top: 1vw;
     margin-left: 0.5;
 
