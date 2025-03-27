@@ -1,3 +1,7 @@
+
+html{
+    margin-top: 0%;
+}
 #fondo{
     width: 100vw;
     height: 100vw;
@@ -8,5 +12,19 @@
     position: absolute;
     margin-top: -100%;
     margin-left: 70%;
-  
+
+}
+#nube{
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    margin-top: -90%;
+    margin-left: 70%;
+}
+#muñecos{
+    width: 65vw;
+    height: 40vw;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 20%;
 }
