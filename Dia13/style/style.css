@@ -1,0 +1,12 @@
+#fondo{
+    width: 100vw;
+    height: 100vw;
+}
+#sun{
+    width: 35vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: -100%;
+    margin-left: 70%;
+  
+}
