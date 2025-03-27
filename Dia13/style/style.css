@@ -2,29 +2,45 @@
 html{
     margin-top: 0%;
 }
+#text_1{
+    width: 4000vw;
+    height: 4000vw;
+    position: absolute;
+    margin-top: 40vw;
+    margin-left: 20vw;
+}
 #fondo{
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 #sun{
     width: 35vw;
     height: 20vw;
-    position: absolute;
-    margin-top: -100%;
-    margin-left: 70%;
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 70vw;
 
 }
 #nube{
-    width: 35vw;
-    height: 35vw;
-    position: absolute;
-    margin-top: -90%;
-    margin-left: 70%;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    margin-top: -20vw;
+    margin-left: 70vw;
 }
 #muñecos{
-    width: 65vw;
-    height: 40vw;
+    width: 35vw;
+    height: 20vw;
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 20vw;
+}
+#gota{
+    width: 4vw;
+    height: 4vw;
     position: absolute;
-    margin-top: -45%;
-    margin-left: 20%;
+    margin-top: -40%;
+    margin-left: 20vw;
 }
