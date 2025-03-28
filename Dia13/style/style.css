@@ -1,13 +1,6 @@
 
-html{
+html,body{
     margin-top: 0%;
-}
-#text_1{
-    width: 4000vw;
-    height: 4000vw;
-    position: absolute;
-    margin-top: 40vw;
-    margin-left: 20vw;
 }
 #fondo{
     width: 100%;
@@ -15,29 +8,121 @@ html{
     position: absolute;
     object-fit: cover;
 }
+@keyframes cuenta {
+    0% { opacity: 0; }  
+    10% { opacity: 1;  }  
+    70% { opacity: 1;  }  
+    100% { opacity: 0; }  
+}
+
+
+#text_1, #text_2, #text_3, #text_action {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    margin-top: -30vw;
+    margin-left: 50vw;
+    animation-name: cuenta;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+#text_3 { animation-delay: 0s; }
+#text_2 { animation-delay: 1s; }
+#text_1 { animation-delay: 2s; }
+#text_action { animation-delay: 3s; }
+
+
+@keyframes sun { 
+    0% { opacity: 50%; } 
+    100% { opacity: 100%; } 
+}
 #sun{
     width: 35vw;
     height: 20vw;
     position: relative;
     margin-top: 1vw;
     margin-left: 70vw;
-
+    animation-name: sun;
+    animation-duration: 60s;
 }
-#nube{
+@keyframes nube {
+    0%   { left: 100vw; }   
+    40%  { left: -40vw; }    
+    61.2%  { left: -40vw; }  
+    100% { left: -100vw; }  
+}
+
+#nube {
     width: 25vw;
     height: 25vw;
     position: relative;
     margin-top: -20vw;
     margin-left: 70vw;
+    animation: nube 16s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes muñecos {
+    0%   { left: -100vw; }   
+    40%  { left: -40vw; }    
+    60%  { left: 40vw; }  
+    100% { left: 100vw; }  
 }
 #muñecos{
     width: 35vw;
     height: 20vw;
     position: relative;
-    margin-top: 10vw;
+    margin-top: -1vw;
     margin-left: 20vw;
+    animation: muñecos 75s ease-in;
+    animation-fill-mode: forwards;
 }
+@keyframes gotas {
+    0%   { opacity: 0; top: 50vw; } 
+    60%  { opacity: 1; top: 50vw; }  /* 🌧️ No aparece al inicio */
+    70%  { opacity: 1; top: 50vw; }  /* 🌧️ Aparece en su posición inicial */
+    100% { opacity: 0; top: 100vw; } /* 🌧️ Cae y desaparece */
+}
+
 #gota{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 20vw;
+    animation: gotas 8s ease-in 1 forwards;
+}
+#gota2{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20vw;
+}#gota3{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20vw;
+}#gota4{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20vw;
+}#gota5{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20vw;
+}#gota6{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20vw;
+}#gota7{
     width: 4vw;
     height: 4vw;
     position: absolute;
