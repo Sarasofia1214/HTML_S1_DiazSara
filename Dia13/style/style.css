@@ -65,10 +65,10 @@ html,body{
     animation-fill-mode: forwards;
 }
 @keyframes muñecos {
-    0%   { bottom: -40vw; opacity: 0; }  /* 🔽 Empieza abajo y oculto */
-    40%  { bottom: 3vw; opacity: 1; }   /* 🚀 Sube y se muestra */
-    65%  { bottom: 3vw; opacity: 1; }   /* ⏸️ Se mantiene quieto */
-    100% { opacity: 0; }   /* 🔼 Sigue subiendo y desaparece */
+    0%   { bottom: -20vw; opacity: 0; }  
+    39%  { bottom: -20vw; opacity: 1; } 
+    40%  { bottom: 3vw; opacity: 1; }   
+    85%  { bottom: 3vw; opacity: 1; }  
 }
 
 #muñecos {
@@ -76,7 +76,7 @@ html,body{
     height: 20vw;
     position: relative;
     left: 20vw;
-    animation: muñecos 10s ease-in;
+    animation: muñecos 36s ease-in;
     animation-fill-mode: forwards;
 }
 @keyframes gotas {
@@ -93,31 +93,31 @@ html,body{
     height: 4vw;
     position: absolute;
     margin-top: -32%;
-    margin-left: 40vw;
+    margin-left: 30vw;
     animation: gotas 10.5s ease-in 1 forwards;
 }
 #gota2{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    margin-top: -32%;
-    margin-left: 44vw;
+    margin-top: -36%;
+    margin-left: 30vw;
     animation: gotas 11.5s ease-in 1 forwards;
 }
 #gota3{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    margin-top: -36%;
-    margin-left:35vw;
+    margin-top: -32%;
+    margin-left:33vw;
     animation: gotas 10.5s ease-in 1 forwards;
 }
 #gota4{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    margin-top: -30%;
-    margin-left: 31.5vw;
+    margin-top: -32%;
+    margin-left: 35.5vw;
     animation: gotas 10.2s ease-in 1 forwards;
 }
 #gota5{
@@ -126,7 +126,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 51.5vw;
-    animation: gotas 9.5s ease-in 1 forwards;
+    animation: gotas 10.5s ease-in 1 forwards;
 }
 #gota6{
     width: 4vw;
@@ -166,7 +166,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 40vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 12s ease-in 1 forwards;
 }
 #gota11{
     width: 4vw;
@@ -174,7 +174,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 40vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 11.5s ease-in 1 forwards;
 }
 #gota12{
     width: 4vw;
@@ -182,7 +182,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 47vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 12s ease-in 1 forwards;
 }
 #gota13{
     width: 4vw;
@@ -190,15 +190,15 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 40vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 12s ease-in 1 forwards;
 }
 #gota14{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    margin-top: -32%;
-    margin-left: 40vw;
-    animation: gotas 9s ease-in 1 forwards;
+    margin-top: -35%;
+    margin-left: 60vw;
+    animation: gotas 13s ease-in 1 forwards;
 }
 #gota15{
     width: 4vw;
@@ -206,7 +206,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 45vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 11s ease-in 1 forwards;
 }
 #gota16{
     width: 4vw;
@@ -214,7 +214,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 39vw;
-    animation: gotas 9.5s ease-in 1 forwards;
+    animation: gotas 10.5s ease-in 1 forwards;
 }
 #gota17{
     width: 4vw;
@@ -222,7 +222,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 46vw;
-    animation: gotas 10s ease-in 1 forwards;
+    animation: gotas 11s ease-in 1 forwards;
 }
 #gota18{
     width: 4vw;
@@ -230,7 +230,7 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 43vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 11.8s ease-in 1 forwards;
 }
 #gota19{
     width: 4vw;
@@ -238,5 +238,50 @@ html,body{
     position: absolute;
     margin-top: -32%;
     margin-left: 40vw;
-    animation: gotas 9s ease-in 1 forwards;
+    animation: gotas 12.2s ease-in 1 forwards;
+}
+#gota20{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 30vw;
+    animation: gotas 11.5s ease-in 1 forwards;
+}
+#gota21{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 30vw;
+    animation: gotas 11.5s ease-in 1 forwards;
+}#gota22{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 40vw;
+    animation: gotas 12.5s ease-in 1 forwards;
+}#gota23{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 45vw;
+    animation: gotas 12.5s ease-in 1 forwards;
+}#gota24{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 30vw;
+    animation: gotas 10s ease-in 1 forwards;
+}
+#gota25{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 40vw;
+    animation: gotas 10s ease-in 1 forwards;
 }
