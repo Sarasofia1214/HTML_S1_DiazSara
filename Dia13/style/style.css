@@ -65,10 +65,12 @@ html,body{
     animation-fill-mode: forwards;
 }
 @keyframes muñecos {
-    0%   { bottom: -20vw; opacity: 0; }  
-    39%  { bottom: -20vw; opacity: 1; } 
-    40%  { bottom: 3vw; opacity: 1; }   
-    85%  { bottom: 3vw; opacity: 1; }  
+    0%   { bottom: -20vw; opacity: 0%; }
+    40%   { bottom: -20vw; opacity: 0%; }   
+    79%  { bottom: 1vw; opacity: 100%; } 
+    80%  { bottom: 1vw; opacity: 100%; }  
+    100%  { bottom: 1vw; opacity: 100%; }  
+     
 }
 
 #muñecos {
@@ -76,8 +78,9 @@ html,body{
     height: 20vw;
     position: relative;
     left: 20vw;
-    animation: muñecos 36s ease-in;
-    animation-fill-mode: forwards;
+    animation: muñecos 24s linear;
+    animation-fill-mode: both;
+    animation-duration: 25s;
 }
 @keyframes gotas {
     0%   { opacity: 0%; top: 50vw; } 
