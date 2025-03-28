@@ -35,6 +35,7 @@ html,body{
 
 @keyframes sun { 
     0% { opacity: 50%; } 
+    99% { opacity: 50%; } 
     100% { opacity: 100%; } 
 }
 #sun{
@@ -44,13 +45,13 @@ html,body{
     margin-top: 1vw;
     margin-left: 70vw;
     animation-name: sun;
-    animation-duration: 60s;
+    animation-duration: 13.5s;
 }
 @keyframes nube {
     0%   { left: 100vw; }   
     40%  { left: -40vw; }    
     65%  { left: -40vw; }     
-    80%  { left: -80vw; }     
+    75%  { left: -80vw; }     
     100% { left: -160vw; }
 }
 
@@ -64,18 +65,18 @@ html,body{
     animation-fill-mode: forwards;
 }
 @keyframes muñecos {
-    0%   { left: -100vw; }   
-    40%  { left: -40vw; }    
-    60%  { left: 40vw; }  
-    100% { left: 100vw; }  
+    0%   { bottom: -40vw; opacity: 0; }  /* 🔽 Empieza abajo y oculto */
+    40%  { bottom: 3vw; opacity: 1; }   /* 🚀 Sube y se muestra */
+    65%  { bottom: 3vw; opacity: 1; }   /* ⏸️ Se mantiene quieto */
+    100% { opacity: 0; }   /* 🔼 Sigue subiendo y desaparece */
 }
-#muñecos{
+
+#muñecos {
     width: 35vw;
     height: 20vw;
     position: relative;
-    margin-top: -1vw;
-    margin-left: 20vw;
-    animation: muñecos 45s ease-in;
+    left: 20vw;
+    animation: muñecos 10s ease-in;
     animation-fill-mode: forwards;
 }
 @keyframes gotas {
